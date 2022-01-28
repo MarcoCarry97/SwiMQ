@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MQTTDroid</string>
+    <string name="title_activity_traning">TrainingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="style">
+        <item>Crawl</item>
+        <item>Breaststroke</item>
+        <item>Backstroke</item>
+        <item>Butterfly</item>
+    </string-array>
+    <string-array name="type">
+        <item>Speed</item>
+        <item>Breath</item>
+        <item>Cardio</item>
+        <item>Four</item>
+    </string-array>
+</resources>

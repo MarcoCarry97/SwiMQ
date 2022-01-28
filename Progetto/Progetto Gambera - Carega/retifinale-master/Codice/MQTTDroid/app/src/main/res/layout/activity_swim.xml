@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SwimActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#CDC2E6"
+    android:padding="30dp">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_train"
+        android:text="Create Training"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+    <!--Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/put_fit"
+        android:text="Connect Fitbit"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"/-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_train"
+        android:text="Show Trainings"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_old_train"
+        android:text="Show Old Trainings"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_train"
+        android:text="Post-Training Analysis"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"/>
+
+</LinearLayout>
